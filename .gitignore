@@ -1,1 +1,37 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+bin/
+obj/
+*.cache
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Token files (security)
 GitHubRepositoryTokenAcess.txt
+*token*
+*Token*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+packages/
+*.nupkg
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
